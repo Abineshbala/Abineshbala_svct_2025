@@ -1,3 +1,17 @@
+'''
+consider two points,p=(px,py)  andq=(qx,qy) . We consider the inversion or point reflection,r=(rx,ry) , of point p across point q to be a 180degree rotation of point p around q.
+Given  n sets of points p and q, find r for each pair of points and print two space-separated integers denoting the respective values of rx and ry on a new line.
+Sample Input
+
+2
+0 0 1 1
+1 1 2 2
+Sample Output
+
+2 2
+3 3
+'''
+
 def findPoint(px, py, qx, qy):
     # Write your code here
     rx=2*qx-px
